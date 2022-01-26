@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+}
+
+.container h1 {
+  margin: 0px 0px 0px 90px;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+}
+
+.out {
+  font-size: 33px;
+  color: aquamarine;
+  margin: 10px;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.25s ease-in;
+}
